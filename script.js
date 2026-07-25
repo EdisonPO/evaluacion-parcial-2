@@ -45,3 +45,14 @@ for(let i = 1; i <=20; i++){
     }
 }
 console.log(`La suma total de los numeros de 1 al 20 es: ${sumaTotal}`);
+
+function obtenerMayor(num1,num2){
+    if(num1 > num2){
+        return num1;
+    }else{
+        return num2;
+    }
+}
+
+let mayor = obtenerMayor(46,80);
+console.log(`El numero mayor entre 46 y 80 es: ${mayor}`);
