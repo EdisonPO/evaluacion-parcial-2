@@ -19,3 +19,17 @@ let precioFinal = precioOriginal - ahorro;
 console.log(`Precio original: ${precioOriginal}`);
 console.log(`Ahorro (15%): ${ahorro}`);
 console.log(`Precio final con descuento: ${precioFinal}`);
+
+function clasificarEdad(edad){
+    if(edad < 18){
+        console.log(`Con ${edad} años es: Menor de edad`);
+    }else if (edad <= 65){
+        console.log(`Con ${edad} años es: Adulto`);
+    }else {
+        console.log(`Con ${edad} años es: Adulto mayor`);
+    }
+
+}
+clasificarEdad(16);
+clasificarEdad(31);
+clasificarEdad(72);
