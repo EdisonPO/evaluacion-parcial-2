@@ -33,3 +33,15 @@ function clasificarEdad(edad){
 clasificarEdad(16);
 clasificarEdad(31);
 clasificarEdad(72);
+
+let sumaTotal = 0;
+
+for(let i = 1; i <=20; i++){
+    sumaTotal += i;
+    if(i % 2 === 0){
+        console.log(`${i} es par`)
+    }else {
+        console.log(`${i} es impar`)
+    }
+}
+console.log(`La suma total de los numeros de 1 al 20 es: ${sumaTotal}`);
